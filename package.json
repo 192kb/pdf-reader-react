@@ -1,21 +1,20 @@
 {
   "name": "ap2021",
-  "homepage": "https://ap2021.ru",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/node": "^14.14.41",
-    "@types/react": "^17.0.4",
-    "@types/react-dom": "^17.0.3",
-    "@types/react-pdf": "^5.0.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "react-ga": "^3.3.1",
     "react-pdf": "^10.4.0",
     "react-scripts": "5.0.1",
     "react-swipeable": "^7.0.2",
     "typescript": "^4.2.4",
-    "web-vitals": "^5.1.0"
+    "web-vitals": "^5.1.0",
+    "@types/node": "^14.14.41",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-pdf": "^5.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,5 +39,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
   }
 }

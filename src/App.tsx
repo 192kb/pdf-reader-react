@@ -8,7 +8,7 @@ const App: React.FC = () => {
   const [pageNumber, setPageNumber] = useState<number>(1);
 
   const onDocumentLoadSuccess = React.useCallback(
-    ({ numPages }) => setNumPages(numPages),
+    ({ numPages }: {numPages: number}) => setNumPages(numPages),
     []
   );
 
