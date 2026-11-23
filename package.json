@@ -6,7 +6,7 @@
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-ga": "^3.3.1",
-    "react-pdf": "^11.0.0",
+    "react-pdf": "^11.1.0",
     "react-scripts": "5.0.1",
     "react-swipeable": "^7.0.2",
     "typescript": "^7.0.2",
